@@ -207,32 +207,24 @@ class ImportfSpyProject(Operator, ImportHelper):
         unit = project.reference_distance_unit
         is_imperial = False
         blender_unit = None
-        scale_length = None
         if unit == 'Millimeters':
             blender_unit = 'MILLIMETERS'
-            scale_length = 0.001
         elif unit == 'Centimeters':
             blender_unit = 'CENTIMETERS'
-            scale_length = 0.01
         elif unit == 'Meters':
             blender_unit = 'METERS'
-            scale_length = 1.0
             blender_unit = 'METERS'
         elif unit == 'Kilometers':
             blender_unit = 'KILOMETERS'
-            scale_length = 1000.0
             blender_unit = 'KILOMETERS'
         elif unit == 'Inches':
             blender_unit = 'INCHES'
-            scale_length = 1.0 / 12.0
             is_imperial = True
         elif unit == 'Feet':
             blender_unit = 'FEET'
-            scale_length = 1.0
             is_imperial = True
         elif unit == 'Miles':
             blender_unit = 'MILES'
-            scale_length = 5280.0
             is_imperial = True
 
         if blender_unit:
@@ -243,7 +235,6 @@ class ImportfSpyProject(Operator, ImportHelper):
             else:
                 unit_settings.system = 'METRIC'
             unit_settings.length_unit = blender_unit
-            unit_settings.scale_length = scale_length
             camera.location.x *= camera_distance_scale
             camera.location.y *= camera_distance_scale
             camera.location.z *= camera_distance_scale
