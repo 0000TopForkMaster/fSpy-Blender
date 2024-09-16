@@ -22,9 +22,9 @@ bl_info = {
     "version": (1, 1, 0),
     "blender": (2, 80, 0),
     "location": "File > Import > fSpy",
-    "url": "https://github.com/stuffmatic/fSpy-Blender",
-    "wiki_url": "https://github.com/stuffmatic/fSpy-Blender",
-    "tracker_url": "https://github.com/stuffmatic/fSpy-Blender/issues",
+    "url": "https://github.com/0000TopForkMaster/fSpy-Blender",
+    "wiki_url": "https://github.com/0000TopForkMaster/fSpy-Blender",
+    "tracker_url": "https://github.com/0000TopForkMaster/fSpy-Blender/issues",
     "category": "Import-Export"
 }
 

